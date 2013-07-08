@@ -10,7 +10,7 @@ package q128_lcs;
 
 public class Solution {
     public int longestConsecutive(int[] num) {
-      
+    	
     	return 0;
     }
 }
