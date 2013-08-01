@@ -1,1 +1,1 @@
-first word
+first
