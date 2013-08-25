@@ -30,7 +30,8 @@ public class Solution {
 	}
     public boolean isBalanced(TreeNode root) {
     	if (root == null) return true;
-    	if (root.left == null)
-    	return ll  >= Math.max(dr, dl) -1;
+    	if (root.left == null);
+    	//eturn ll  >= Math.max(dr, dl) -1;
+    		return false;
     }
 }
