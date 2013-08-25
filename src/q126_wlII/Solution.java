@@ -1,23 +1,31 @@
 package q126_wlII;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
 public class Solution {
-	private boolean isConj(String a1, String a2) {
-		int index = 0;
-		int k = 0;
-		while (index < a1.length()) {
-			if (a1.charAt(index) != a2.charAt(index))
-				k++;
-			if (k > 1)
-				return false;
-			index++;
+	private Set<String> getNeighbour(String a1,Set<String> dict) {
+		Set<String> rst = new HashSet<String>();
+		char[] charArray = a1.toCharArray();
+		for (int i = 0 ;i <  a1.length() ;i++){
+			char c =  charArray[i];
+			for (char t =  'a'; t<= 'z'; t++)
+				if (t != c)
+				{
+					charArray[i] =  t;
+					String newString =  new String(charArray);
+					if (dict.contains(newString)){
+						rst.add(newString);
+					}
+				}
+			charArray[i] =  c;
 		}
-		return k == 1;
+		return rst;
 	}
 
 	public ArrayList<ArrayList<String>> findLadders(String start, String end,
@@ -29,71 +37,51 @@ public class Solution {
 			rst.add(ele);
 			return rst;
 		}
-		dict.remove(start);
-		dict.remove(end);
+		dict.add(start);
+		dict.add(end);
 		
-		boolean[][] f = new boolean[dict.size() +2][];
-		ArrayList<ArrayList<Integer>>[] paths = new ArrayList[dict.size() +2];
-		
-		for (int i = 0; i <= dict.size() + 1; i++)
-		{
-			f[i] =  new boolean[dict.size() + 2];
-			paths[i] = new ArrayList<ArrayList<Integer>>();
+		Map<String,ArrayList<ArrayList<String>>> paths =  new HashMap<String,ArrayList<ArrayList<String>>>(); 
+		for (String str :  dict){
+			paths.put(str, new ArrayList<ArrayList<String>>());
 		}
-		int b = 0;
-		int e = dict.size() +1;
+				
+		ArrayList<String> startpath = new ArrayList<String>();
+		startpath.add(start);
+		paths.get(start).add(startpath);
 		
+		Queue<String> queue = new LinkedList<String>();
+		Set<String>	picked = new HashSet<String>();
+		queue.add(start);
+		picked.add(start);
 		
-		paths[b].add(new ArrayList<Integer>());
-		String[] strs = new String[dict.size() + 2];
-		strs[b] = start;
-		strs[e] = end;
-		
-		int i = 1;
-		Set<Integer> unpick =  new HashSet<Integer>();
-		unpick.add(e);
-		for (String str : dict) {unpick.add(i); strs[i++] = str; }
-		for (int j = 0; j< strs.length-1;j++)
-			for (int k = j+1; k< strs.length; k++)
-				f[j][k] = f[k][j] = isConj(strs[j],strs[k]);
-		
-		Queue<Integer> indexqueue = new LinkedList<Integer>();
-		Set<Integer> inthequeue = new HashSet<Integer>();
-		indexqueue.add(b);
-		while (indexqueue.size() > 0)
+		while (queue.size() > 0)
 		{
-			int current =  indexqueue.poll();
-			if (paths[e].size() > 0 && paths[current].get(0).size() >= paths[e].get(0).size()) break;
-			unpick.remove(new Integer(current));
-			for (int  j :  unpick)
+			String current =  queue.poll();
+			dict.remove(current);
+			if (paths.get(end).size() > 0 && paths.get(current).get(0).size() >= paths.get(end).get(0).size()) break;
+			
+			Set<String> next = getNeighbour(current, dict);
+			for (String str :  next)
 			{
-				if (f[current][j])
+				if (paths.get(str).size() == 0 || paths.get(current).get(0).size() < paths.get(str).get(0).size())
 				{
-					if (paths[j].size() == 0 || paths[current].get(0).size() < paths[j].get(0).size())
 					{
-						for (ArrayList<Integer> path : paths[current])
+						for (ArrayList<String> path : paths.get(current))
 						{
-							ArrayList<Integer> newpath =  new ArrayList<Integer>();
+							ArrayList<String> newpath =  new ArrayList<String>();
 							newpath.addAll(path);
-							newpath.add(j);
-							paths[j].add(newpath);
+							newpath.add(str);
+							paths.get(str).add(newpath);
 						}
 					}
-					if (!inthequeue.contains(j)) {
-						inthequeue.add(j);
-						indexqueue.add(j);
+					if (!picked.contains(str)) {
+						queue.add(str);
+						picked.add(str);
 					}
 				}
 			}
 		}
-		for (ArrayList<Integer> path : paths[e])
-		{
-			ArrayList<String> ele = new ArrayList<String>();
-			ele.add(start);
-			for (int j  : path) ele.add(strs[j]);
-			rst.add(ele);
-		}
-		return rst;
+		return paths.get(end);
 	}
 	public static void main(String[] args) {
 		HashSet<String> dict = new HashSet<String>();

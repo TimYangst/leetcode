@@ -1,4 +1,4 @@
-package q112;
+package q112_PathSum;
 
 class TreeNode {
 	      int val;

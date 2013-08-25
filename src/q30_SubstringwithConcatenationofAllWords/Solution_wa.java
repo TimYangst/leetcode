@@ -1,20 +1,20 @@
-package q30_swcoaw;
+package q30_SubstringwithConcatenationofAllWords;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class Solution_wa {
     public ArrayList<Integer> findSubstring(String S, String[] L) {
         
     	ArrayList<Integer>  rst = new ArrayList<Integer>();
     	
     	Map<String,Integer>  map = new  HashMap<String, Integer>();
-    	Integer nb = 0;
+    	Integer number = 0;
     	for (String str : L)
     	{
-    		map.put(str, nb);
-    		nb ++;
+    		map.put(str, number);
+    		number ++;
     	}
     	
     	
@@ -35,8 +35,10 @@ public class Solution {
     			f[k++] = map.get(str);
     			j = j+l;
     		}
+    		
     		int[] count = new int[L.length];
     		for (int ii =  0;ii< count.length; ii++) count[ii] = 0;
+    		
     		int num = 0;
     		int u =0,v = 0;
     		while (u < k)
