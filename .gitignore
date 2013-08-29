@@ -1,3 +1,6 @@
 .metadata
 bin
 /bin
+*.suo
+*/Debug
+*.sdf
