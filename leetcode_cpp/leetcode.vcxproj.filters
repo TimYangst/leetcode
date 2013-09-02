@@ -30,5 +30,11 @@
     <ClCompile Include="4Sum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="AddTwoNumbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddBinary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

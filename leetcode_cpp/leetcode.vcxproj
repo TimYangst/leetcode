@@ -81,6 +81,8 @@
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="3SumClosest.cpp" />
     <ClCompile Include="4Sum.cpp" />
+    <ClCompile Include="AddBinary.cpp" />
+    <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="atoi.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
