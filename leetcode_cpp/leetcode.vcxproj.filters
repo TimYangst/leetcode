@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="atoi.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="3SumClosest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -34,6 +31,36 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="AddBinary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BalancedBinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimetoBuyandSellStockIII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimetoBuyandSellStockII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimetoBuyandSellStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PascalsTriangleII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PascalsTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

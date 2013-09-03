@@ -83,8 +83,17 @@
     <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
-    <ClCompile Include="atoi.cpp" />
+    <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStockII.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStockIII.cpp" />
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PascalsTriangle.cpp" />
+    <ClCompile Include="PascalsTriangleII.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
