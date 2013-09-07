@@ -103,6 +103,14 @@
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GenerateParentheses_short.cpp" />
     <ClCompile Include="GrayCode.cpp" />
+    <ClCompile Include="ImplementstrStr.cpp" />
+    <ClCompile Include="InsertInterval.cpp" />
+    <ClCompile Include="InterleavingString.cpp" />
+    <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="JumpGameIIcpp.cpp" />
+    <ClCompile Include="LargestRectangleinHistogram.cpp" />
+    <ClCompile Include="LengthofLastWord.cpp" />
+    <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
