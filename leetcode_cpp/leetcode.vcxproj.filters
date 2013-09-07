@@ -63,5 +63,20 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreeMaximumPathSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbingStairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DecodeWays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DistinctSubsequences.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -91,6 +91,11 @@
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
+    <ClCompile Include="BinaryTreeMaximumPathSum.cpp" />
+    <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
+    <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DistinctSubsequences.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
