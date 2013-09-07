@@ -96,6 +96,13 @@
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DistinctSubsequences.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
+    <ClCompile Include="FlattenBinaryTreetoLinkedList.cpp" />
+    <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="GenerateParentheses_short.cpp" />
+    <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
