@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{50BE1923-9475-4928-91B2-5C42DBA8A092}</ProjectGuid>
+    <ProjectGuid>{1A07F944-A38E-4E2A-B136-425A5BC77A30}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>leetcode</RootNamespace>
     <ProjectName>leetcode_cpp</ProjectName>
@@ -79,6 +79,51 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="3Sum.cpp" />
+    <ClCompile Include="3SumClosest.cpp" />
+    <ClCompile Include="4Sum.cpp" />
+    <ClCompile Include="AddBinary.cpp" />
+    <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStockII.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStockIII.cpp" />
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
+    <ClCompile Include="BinaryTreeMaximumPathSum.cpp" />
+    <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
+    <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DistinctSubsequences.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
+    <ClCompile Include="FlattenBinaryTreetoLinkedList.cpp" />
+    <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="GenerateParentheses_short.cpp" />
+    <ClCompile Include="GrayCode.cpp" />
+    <ClCompile Include="ImplementstrStr.cpp" />
+    <ClCompile Include="InsertInterval.cpp" />
+    <ClCompile Include="InterleavingString.cpp" />
+    <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="JumpGameIIcpp.cpp" />
+    <ClCompile Include="LargestRectangleinHistogram.cpp" />
+    <ClCompile Include="LengthofLastWord.cpp" />
+    <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
+    <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestConsecutiveSequence.cpp" />
+    <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
+    <ClCompile Include="LongestValidParentheses.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaximalRectangle.cpp" />
+    <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
+    <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="MedianofTwoSortedArrays.cpp" />
+    <ClCompile Include="PascalsTriangle.cpp" />
+    <ClCompile Include="PascalsTriangleII.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

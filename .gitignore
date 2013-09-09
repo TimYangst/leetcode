@@ -3,4 +3,6 @@ bin
 /bin
 *.suo
 */Debug
+Debug
 *.sdf
+*.opensdf

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution {
+public class Solution_oldversion {
     public int numDistinct(String S, String T) {
     	if (S == null || T == null) return 0;
     	if ("".equals(T)) return 1;
@@ -62,6 +62,6 @@ public class Solution {
         return a[a.length-1];
     }
     public static void main(String[] args) {
-		new Solution().numDistinct("ddd", "dd");
+		new Solution_oldversion().numDistinct("ddd", "dd");
 	}
 }
