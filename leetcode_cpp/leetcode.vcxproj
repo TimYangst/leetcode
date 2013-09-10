@@ -121,6 +121,8 @@
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MedianofTwoSortedArrays.cpp" />
+    <ClCompile Include="MergeIntervals.cpp" />
+    <ClCompile Include="MergekSortedLists.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="Triangle.cpp" />
