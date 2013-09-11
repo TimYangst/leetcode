@@ -1,0 +1,59 @@
+﻿Build started 9/10/2013 11:07:17 AM.
+     1>Project "D:\project\leetcode\leetcode_cpp\leetcode.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\leetcode\Release\leetcode_cpp.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\project\leetcode\Release\leetcode_cpp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\leetcode\Release\leetcode_cpp.lib" /MACHINE:X86 /SAFESEH Release\3Sum.obj
+         Release\3SumClosest.obj
+         Release\4Sum.obj
+         Release\AddBinary.obj
+         Release\AddTwoNumbers.obj
+         Release\BalancedBinaryTree.obj
+         Release\BestTimetoBuyandSellStock.obj
+         Release\BestTimetoBuyandSellStockII.obj
+         Release\BestTimetoBuyandSellStockIII.obj
+         Release\BinaryTreeInorderTraversal.obj
+         Release\BinaryTreeLevelOrderTraversal.obj
+         Release\BinaryTreeLevelOrderTraversalII.obj
+         Release\BinaryTreeMaximumPathSum.obj
+         Release\BinaryTreeZigzagLevelOrderTraversal.obj
+         Release\ClimbingStairs.obj
+         Release\DecodeWays.obj
+         Release\DistinctSubsequences.obj
+         Release\DivideTwoIntegers.obj
+         Release\EditDistance.obj
+         Release\FirstMissingPositive.obj
+         Release\FlattenBinaryTreetoLinkedList.obj
+         Release\GenerateParentheses.obj
+         Release\GenerateParentheses_short.obj
+         Release\GrayCode.obj
+         Release\ImplementstrStr.obj
+         Release\InsertInterval.obj
+         Release\InterleavingString.obj
+         Release\JumpGame.obj
+         Release\JumpGameIIcpp.obj
+         Release\LargestRectangleinHistogram.obj
+         Release\LengthofLastWord.obj
+         Release\LetterCombinationsofaPhoneNumber.obj
+         Release\LongestCommonPrefix.obj
+         Release\LongestConsecutiveSequence.obj
+         Release\LongestPalindromicSubstring.obj
+         Release\LongestSubstringWithoutRepeatingCharacters.obj
+         Release\LongestValidParentheses.obj
+         Release\main.obj
+         Release\MaximalRectangle.obj
+         Release\MaximumDepthofBinaryTree.obj
+         Release\MaximumSubarray.obj
+         Release\MedianofTwoSortedArrays.obj
+         Release\PascalsTriangle.obj
+         Release\PascalsTriangleII.obj
+         Release\Triangle.obj
+         正在生成代码
+         已完成代码的生成
+         leetcode.vcxproj -> D:\project\leetcode\Release\leetcode_cpp.exe
+     1>Done Building Project "D:\project\leetcode\leetcode_cpp\leetcode.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.66
