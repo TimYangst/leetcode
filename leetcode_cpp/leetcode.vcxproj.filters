@@ -150,5 +150,11 @@
     <ClCompile Include="MedianofTwoSortedArrays.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MergeIntervals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergekSortedLists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
