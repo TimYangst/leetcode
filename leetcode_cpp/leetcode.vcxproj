@@ -124,6 +124,9 @@
     <ClCompile Include="MedianofTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergekSortedLists.cpp" />
+    <ClCompile Include="MergeSortedArray.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
+    <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="Triangle.cpp" />
