@@ -9,9 +9,9 @@ public:
 		int total = 0;
 		for (int i = 0; i< T.size(); i++ ) {
 			count[T[i]] --;
-			total ++;
+			if (count[T[i]] == -1) total ++;
 		}
-		int minlength = S.length();
+		int minlength = S.length()+1;
 		string rst ="";
 		int i1=0,i2=-1;
 		do {
@@ -26,8 +26,8 @@ public:
 			}
 			if (total==0) {
 				if (i2 - i1 + 1 < minlength ) {
-					rst = S.substr(i1,i2);
 					minlength = i2 -i1 +1;
+					rst = S.substr(i1,minlength);
 				}
 				count[S[i1++]]--;
 				total ++;

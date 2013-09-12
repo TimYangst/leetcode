@@ -127,6 +127,9 @@
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
+    <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MinimumWindowSubstring.cpp" />
+    <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="Triangle.cpp" />
