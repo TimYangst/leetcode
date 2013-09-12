@@ -156,5 +156,14 @@
     <ClCompile Include="MergekSortedLists.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MergeSortedArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoSortedLists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumDepthofBinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

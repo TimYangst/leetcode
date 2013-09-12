@@ -54,6 +54,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,6 +124,9 @@
     <ClCompile Include="MedianofTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergekSortedLists.cpp" />
+    <ClCompile Include="MergeSortedArray.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
+    <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="Triangle.cpp" />
