@@ -173,8 +173,14 @@
     </ClCompile>
     <ClCompile Include="max_bst_tree.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>  
+    </ClCompile>
     <ClCompile Include="MultiplyStrings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueensII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueens.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

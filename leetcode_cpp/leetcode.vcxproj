@@ -131,6 +131,8 @@
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="NQueens.cpp" />
+    <ClCompile Include="NQueensII.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="Triangle.cpp" />
