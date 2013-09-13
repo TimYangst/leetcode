@@ -121,12 +121,15 @@
     <ClCompile Include="MaximalRectangle.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="max_bst_tree.cpp" />
     <ClCompile Include="MedianofTwoSortedArrays.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergekSortedLists.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
+    <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="Triangle.cpp" />
