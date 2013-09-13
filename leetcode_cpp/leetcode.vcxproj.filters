@@ -173,6 +173,9 @@
     </ClCompile>
     <ClCompile Include="max_bst_tree.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>  
+    <ClCompile Include="MultiplyStrings.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
