@@ -183,5 +183,17 @@
     <ClCompile Include="NQueens.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="NextPermutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrome Number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromePartitioningII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromePartitioning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
