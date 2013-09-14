@@ -195,5 +195,35 @@
     <ClCompile Include="PalindromePartitioning.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="PartitionList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSumII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationSequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationsII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOne.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PopulatingNextRightPointersinEachNodeII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Powxn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoverBinarySearchTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -137,8 +137,18 @@
     <ClCompile Include="Palindrome Number.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PalindromePartitioningII.cpp" />
+    <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
+    <ClCompile Include="PathSum.cpp" />
+    <ClCompile Include="PathSumII.cpp" />
+    <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="PermutationSequence.cpp" />
+    <ClCompile Include="PermutationsII.cpp" />
+    <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="PopulatingNextRightPointersinEachNodeII.cpp" />
+    <ClCompile Include="Powxn.cpp" />
+    <ClCompile Include="RecoverBinarySearchTree.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
