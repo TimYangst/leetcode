@@ -149,6 +149,14 @@
     <ClCompile Include="PopulatingNextRightPointersinEachNodeII.cpp" />
     <ClCompile Include="Powxn.cpp" />
     <ClCompile Include="RecoverBinarySearchTree.cpp" />
+    <ClCompile Include="RegularExpressionMatching.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedArrayII.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedList.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedListII.cpp" />
+    <ClCompile Include="RemoveElement.cpp" />
+    <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
+    <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

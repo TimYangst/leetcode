@@ -225,5 +225,29 @@
     <ClCompile Include="RecoverBinarySearchTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="RegularExpressionMatching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedArrayII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedListII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveNthNodeFromEndofList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RestoreIPAddresses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
