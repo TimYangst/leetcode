@@ -157,6 +157,11 @@
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="RestoreIPAddresses.cpp" />
+    <ClCompile Include="ReverseInteger.cpp" />
+    <ClCompile Include="ReverseLinkedListII.cpp" />
+    <ClCompile Include="ReverseNodesink-Group.cpp" />
+    <ClCompile Include="RotateImage.cpp" />
+    <ClCompile Include="RotateList.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
