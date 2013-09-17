@@ -162,6 +162,19 @@
     <ClCompile Include="ReverseNodesink-Group.cpp" />
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="RotateList.cpp" />
+    <ClCompile Include="SameTree.cpp" />
+    <ClCompile Include="ScrambleString.cpp" />
+    <ClCompile Include="Searcha2DMatrix.cpp" />
+    <ClCompile Include="SearchforaRange.cpp" />
+    <ClCompile Include="SearchinRotatedSortedArray.cpp" />
+    <ClCompile Include="SearchinRotatedSortedArrayII.cpp" />
+    <ClCompile Include="SearchInsertPosition.cpp" />
+    <ClCompile Include="SetMatrixZeroes.cpp" />
+    <ClCompile Include="SimplifyPath.cpp" />
+    <ClCompile Include="SortColors.cpp" />
+    <ClCompile Include="SpiralMatrixII.cpp" />
+    <ClCompile Include="sqrtx.cpp" />
+    <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
