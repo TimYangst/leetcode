@@ -175,6 +175,7 @@
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
     <ClCompile Include="sqrtx.cpp" />
+    <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SubsetsII.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
