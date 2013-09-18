@@ -123,6 +123,7 @@
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="max_bst_tree.cpp" />
     <ClCompile Include="MedianofTwoSortedArrays.cpp" />
+    <ClCompile Include="MedianofTwoSortedArrays_secondtime.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergekSortedLists.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
