@@ -177,6 +177,7 @@
     <ClCompile Include="sqrtx.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SubsetsII.cpp" />
+    <ClCompile Include="SubstringwithConcatenationofAllWords.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
