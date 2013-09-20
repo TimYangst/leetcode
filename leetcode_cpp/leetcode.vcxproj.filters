@@ -264,9 +264,6 @@
     <ClCompile Include="RotateList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ScrambleString.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="SameTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -309,7 +306,16 @@
     <ClCompile Include="Subsets.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ScrambleString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="SubstringwithConcatenationofAllWords.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SudokuSolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SumRoottoLeafNumbers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

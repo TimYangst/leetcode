@@ -6,23 +6,34 @@ public:
     vector<int> findSubstring(string S, vector<string> &L) {
 		vector<int> rst;
 		if (S.length() ==0 || L.size() ==0) return rst;
+		int N = L.size();
+		int M = L[0].size();
 		map<string,int> count;
-		int tot;
-		for (int  i = 0 ; i <  L.size(); i++ ) {
-			if (count[L[i]] -- == 0) tot ++;
-		}
-		int len =  L[0].length();
-		for  (int i = 0; i< len ; i ++){
-			map<string,int> current(count); 
-			int j = i;
-			int k = j - len;
-			int tmp = tot;
-			while (j < S.length()){
-				while (tot > 0){
-					current[S.substr(
+		for (int i = 0; i < N; i++) count[L[i]] --;
+		for (int i = 0; i < M; i++){
+			map<string,int> current(count);
+			int b = i;
+			int tot = N;
+			for (int j = i ; j + M  <= S.length() ; j += M){
+				int k = current[S.substr(j,M)] ++;
+				tot --;
+				if (k < 0) {
+					if (tot == 0){
+						rst.push_back(b);
+						current[S.substr(b,M)] --;
+						b += M;
+						tot ++;
+					}
+				}else {
+					while (current[S.substr(j,M)] >0){
+						tot ++;	
+						current[S.substr(b,M)] --;
+						b += M;
+					}
+					if (b + M * N > S.length()) break;
 				}
 			}
 		}
-        
+		return rst;
     }
 };
