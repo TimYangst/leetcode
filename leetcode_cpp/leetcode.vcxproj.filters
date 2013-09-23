@@ -309,13 +309,13 @@
     <ClCompile Include="ScrambleString.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SubstringwithConcatenationofAllWords.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="SudokuSolver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SumRoottoLeafNumbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SurroundedRegions.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
